@@ -1,7 +1,8 @@
 //LISTA 7
 
 #include <iostream> 
-#include <locale>
+#include <locale>+
+#include <iomanip>
 using namespace std;
 
 //EXERCICIO 1
@@ -25,9 +26,7 @@ using namespace std;
 //	else {
 //		return b;
 //	}
-//}
-
-
+//
 //EXERCICIO 2
 // 
 //int produtos(int a, int b, int c, int d);
@@ -55,9 +54,8 @@ using namespace std;
 //	return(a + b) * (c + d);
 //};
 //
-
 //EXERCICIO 3 
-
+// 
 int main() {
 	double A, B, C; 
 	const double PI = 3.14159;
@@ -79,4 +77,13 @@ int main() {
 	double AreaRetangulo = A * B;
 
 
-}
+}//
+//    // Mostrar os resultados
+//    cout << "Área do triângulo retângulo: " << AreaTriangulo << endl;
+//    cout << "Área do círculo: " << AreaCirculo << endl;
+//    cout << "Área do trapézio: " << AreaTrapezio << endl;
+//    cout << "Área do quadrado: " << AreaQuadrado << endl;
+//    cout << "Área do retângulo: " << AreaRetangulo << endl;
+//
+//    return 0;
+//}
